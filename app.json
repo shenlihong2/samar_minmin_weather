@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationStyle": "default" ,
+    "navigationBarBackgroundColor": "#65FFFF",
+    "navigationBarTitleText": "samar天气",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

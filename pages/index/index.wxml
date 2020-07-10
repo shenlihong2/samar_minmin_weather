@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="container" >
+    <view class="title-name">samar天气</view>
+     <view class="update-time">最后更新于2020-7-10 14:53:46</view>
+      <view class="weather-card">
+            <view class="weather-top">
+               <view class="weather-top-top">
+                    <view class="range">15°C~ 20°C</view>
+                    <view class="refresh" >
+                    <image src="../../images/refesh.png" animation='{{animation}}' bindtap="g"></image>
+                    </view>
+               </view>
+               <view class="weather-top-center">
+               <image src="../../images/duoyun.png" ></image>
+               </view>
+               <view class="weather-information">多云</view>
+               <view class="weather-top-bottom">
+                   <view class="weather-temperature">17°C</view>
+                   <view class="other-information">
+                       <view class="location">
+                           <view class="location-image">
+                           <image  src="../../images/location.png"></image>
+                           </view>
+                           <view class="location-information">安庆</view>
+                       </view>
+                       <view class="weekday">星期五</view>
+                   </view>
+               </view>
+            </view>
+            <view class="weather-bottom">
+            <view class="weather-left">
+                 <view class='tomorrow'>明天</view>
+                 <view class='weather1'>
+                 <image src="../../images/black/duoyun.png" ></image>
+                 </view>
+            </view>
+            <view class="weather-center">
+                 <view class='the-day-after-tomorrow'>星期日</view>
+                 <view class='weather2'>
+                 <image src="../../images/black/yin.png" ></image>
+                 </view>
+            </view>
+            <view class="weather-right">
+                 <view class='the-day-after-tomorrow-tomorrow'>星期一</view>
+                 <view class='weather2'>
+                 <image src="../../images/black/leizhenyu.png" ></image>
+                 </view>
+            </view>
+            </view>
+      </view>
+</view>

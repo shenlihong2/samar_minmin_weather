@@ -1,0 +1,216 @@
+/**app.wxss**/
+.aligncenter{display: flex;justify-content: center;align-items: center;}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.title-name{
+  width: 100%;
+  margin-top:100rpx;
+  height: 35rpx;
+  font-size: 35rpx;
+  color: white;
+  text-align: center;
+  float: left;
+}
+.update-time{
+  width: 100%;
+  margin-top: 20rpx;
+  height: 35rpx;
+  font-size: 20rpx;
+  color: white;
+  text-align: center;
+  float: left;
+}
+.weather-card{
+  width:90%;
+  height: 90%;
+  margin-bottom:30rpx;
+  float: left;
+  background: blue;
+  border-radius:18rpx;
+  box-shadow: 0 0 15rpx rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+.weather-top{
+  width: 100%;
+  height: 60%;
+  background:linear-gradient(#0DB3FF, #9DBDFF) ;
+
+}
+.weather-top-top{
+  width: 100%;
+  height:12%;
+}
+.weather-top-center{
+  width: 100%;
+  height:50%;
+  display:flex;             
+  justify-content: center;                     
+  
+}
+.weather-top-center image{
+  width:35%;
+  height:230rpx;
+  margin-top:80rpx;
+}
+.weather-information{
+    width: 100%;
+    margin-top:20rpx;
+    height: 5%;
+    color: white;
+    text-align: center;
+    font-size: 30rpx;
+}
+.weather-top-bottom{
+  width: 100%;
+  height:29%;                   
+  
+}
+.weather-temperature{
+  width: 30%;
+  float: left;
+  margin-top:70rpx;
+  height:60%; 
+  color: white;
+  text-align:center;
+  font-size: 80rpx;              
+  
+}
+.other-information{
+  width: 20%;
+  float: right;
+  margin-top:70rpx;
+  height:60%; 
+  color: white;
+  text-align:center;
+  font-size: 30rpx;                       
+  
+}
+.location{
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+.location-image{
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+.location-image image{
+  width: 50rpx;
+  height:44rpx;
+  vertical-align: middle;
+
+}
+.location-information{
+  width:60%;
+  height: 100%;
+  float: right;
+  font-size: 40rpx;
+  text-align: left;
+}
+.weekday{
+  width: 100%;
+  height: 50%;
+  float: left;
+  font-size: 40rpx;
+  text-align: center;
+}
+.range{
+  font-size: 30rpx;
+  color:#fff;
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+.refresh{float: right;line-height: 27px;}
+.refresh image{width: 50rpx;height: 50rpx;vertical-align: middle;}
+.weather-bottom{
+  width: 100%;
+  height:40%;
+  background:#F2F4F5;
+
+}
+.weather-left{
+  width: 33%;
+  height:100%;
+  float: left;
+  border-right: 1px solid #C3E3FF;
+}
+.tomorrow {
+  width: 100%;
+  height: 15%;
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #CACACA;
+}
+.weather1{
+  width: 80%;
+  height: 40%;
+  margin-top: 30rpx;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1rpx solid black;
+}
+.weather1 image{
+  width: 100%;
+  height: 100%;
+}
+.weather-center{
+  width: 32%;
+  height:100%;
+  float: left;
+  border-right: 1px solid #C3E3FF;
+}
+.the-day-after-tomorrow{
+  width: 100%;
+  height: 15%;
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #CACACA;
+}
+.weather2{
+  width: 80%;
+  height: 40%;
+  margin-top: 30rpx;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1rpx solid black;
+}
+.weather2 image{
+  width: 100%;
+  height: 100%;
+}
+.weather-right{
+  width: 33%;
+  float: right;
+  height:100%;
+  border: 1rpx solid black;
+}
+.the-day-after-tomorrow-tomorrow{
+  width: 100%;
+  height: 15%;
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #CACACA;
+}
+.weather3{
+  width: 80%;
+  height: 40%;
+  margin-top: 30rpx;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1rpx solid black;
+}
+.weather3 image{
+  width: 100%;
+  height: 100%;
+}
