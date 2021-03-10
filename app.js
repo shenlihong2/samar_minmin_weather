@@ -31,8 +31,9 @@ App({
     console.log('onPullDownRefresh')
     // 3秒模拟数据加载
     // 不加这个方法真机下拉会一直处于刷新状态，无法复位
+    setTimeout(function() {
     wx.stopPullDownRefresh()
-
+     }.bind(this),2200);
   },
   globalData:{
     userInfo:null

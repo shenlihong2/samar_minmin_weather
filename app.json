@@ -5,9 +5,9 @@
   ],
   "window":{
     "backgroundTextStyle":"dark",
-    "navigationStyle": "default" ,
+    "navigationStyle": "custom" ,
     "navigationBarBackgroundColor": "#65FFFF",
-    "navigationBarTitleText": "samar天气",
+    "navigationBarTitleText": "敏敏小天气",
     "navigationBarTextStyle":"black",
     "enablePullDownRefresh":true
   },

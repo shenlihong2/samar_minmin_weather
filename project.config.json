@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"enhance": false,
 		"postcss": true,
@@ -32,8 +32,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.3",
-	"appid": "wx1d31396a58892c01",
-	"projectname": "%E5%A4%A9%E6%B0%94",
+	"appid": "wx63064310052f3ffa",
+	"projectname": "samar%E5%A4%A9%E6%B0%94",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
